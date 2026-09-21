@@ -1,16 +1,24 @@
 main{
     display:flex;
     flex-direction: column;
+    align-items: center;
     width: fit-content;
     max-width: 320px;
     max-height: 499px;
     padding: 16px 16px 40px 16px;
+    gap:24px;
     
     border: 1px solid #D1D5DB;
     border-radius: 16px;
     overflow:hidden;
 }
 
+
+main div{
+    widht: 288px;
+    gap:16px;
+    padding:0 16px;
+}
 main div img{
     padding: 0 20px;
     width: 288px;
@@ -20,7 +28,6 @@ main div img{
 main div h1{
     font-size: 22px;
     width: 256px;
-    padding: 14px 40px;
     color:hsl(218, 44%, 22%);
 }
 
@@ -28,6 +35,5 @@ main div p{
   font-size: 15px;
   width: 256px;
   height:auto;
-  padding: 20px 24px 19px 24px;   
   color:hsl(216, 15%, 48%);
 }
