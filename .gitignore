@@ -1,0 +1,13 @@
+# Arquivos de sistema do Linux e outros OS
+.DS_Store
+.directory
+*~
+
+# Pastas de dependências (caso você venha a usar npm/Node no futuro)
+node_modules/
+dist/
+.env
+
+# Arquivos de configuração do VS Code ou outros editores
+.vscode/
+.idea/
